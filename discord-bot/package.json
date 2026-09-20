@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-community-bot",
+  "version": "1.0.0",
+  "description": "Discord bot: Modrinth update announcements + private ticket system, built for Railway.",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.0",
+    "dotenv": "^16.4.5"
+  }
+}
